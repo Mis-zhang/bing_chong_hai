@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/Location/main",
+    "pages/Home/main",
+    "pages/Community/main",
+    "pages/Services/main",
+    "pages/Database/main",
+    "pages/My/main",
+    "pages/ShareResults/main",
+    "pages/AddCrops/main",
+    "pages/Details/main",
+    "pages/DatabaseDetails/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "爱种病虫监控",
+    "backgroundColor": "#ffffff"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#238f6b",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "pagePath": "pages/Home/main",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/Community/main",
+        "text": "社区",
+        "iconPath": "static/images/community.png",
+        "selectedIconPath": "static/images/community_active.png"
+      },
+      {
+        "pagePath": "pages/Services/main",
+        "text": "服务商",
+        "iconPath": "static/images/service.png",
+        "selectedIconPath": "static/images/service_active.png"
+      },
+      {
+        "pagePath": "pages/Database/main",
+        "text": "知识库",
+        "iconPath": "static/images/repository.png",
+        "selectedIconPath": "static/images/repository_active.png"
+      },
+      {
+        "pagePath": "pages/My/main",
+        "text": "我的",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user_active.png"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "pages/packageA",
+      "pages": [
+        "fb/main"
+      ]
+    },
+    {
+      "root": "pages/packageB",
+      "pages": [
+        "test/main",
+        "CommunityInfo/main",
+        "PostMessage/main",
+        "CommentDetails/main"
+      ]
+    },
+
+    {
+      "root": "pages/packageE",
+      "pages": [
+        "FansList/main",
+        "BrowsingHistory/main",
+        "HistoryTest/main",
+        "Collect/main",
+        "userInfo/main"
+      ]
+    }
+  ]
+}
